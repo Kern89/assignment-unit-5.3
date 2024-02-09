@@ -31,9 +31,9 @@ Update the `3-music-collection.js` file to do the following:
     - [X]Add the new object to the end of the `collection` array.
     - [X]`return` the newly created object.
 
-- Use and Test the `addToCollection` function:
-  - Add 6 albums to the `myCollection` array. Aim to have a mix of both same and different artists and published years. (Feel free to share your musical interests, or make stuff up. Totally fine either way.)
-  - `console.log` each album as added using the function's returned value.
+- [X]Use and Test the `addToCollection` function:
+  - [X]Add 6 albums to the `myCollection` array. Aim to have a mix of both same and different artists and published years. (Feel free to share your musical interests, or make stuff up. Totally fine either way.)
+  - [X]`console.log` each album as added using the function's returned value.
   - After all are added, console.log the `myCollection` array.
 
 - Create a function named `showCollection`. This function should:
