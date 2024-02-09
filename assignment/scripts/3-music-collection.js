@@ -2,12 +2,17 @@ console.log('***** Music Collection *****')
 // Safe Zone -- Write code below this line
 let myCollection = [];
 
-function addtoCollection(collection, title, artist, yearPublished) {
-
+function addToCollection(collection, Title, Artist, released) {
+  collection = {
+    artist: Artist,
+    title: Title,
+    yearPublished: released,
+  }
+  myCollection += collection;
 }
 
-
-
+addToCollection('Rags To Rufus', 'Tell Me Something Good', 'Rufus and Chaka Khan', 1973)
+console.log(myCollection);
 
 
 
