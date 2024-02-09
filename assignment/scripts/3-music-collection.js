@@ -18,7 +18,8 @@ addToCollection(myCollection, 'Album 2', 'Artist 2', '1977')
 addToCollection(myCollection, 'Album 3', 'Artist 3', '1965')
 addToCollection(myCollection, 'Album 4', 'Artist 4', '1973')
 console.log(myCollection);
-
+addToCollection(myCollection, 'Album 5', 'Artist 5', '1956')
+addToCollection(myCollection, 'Album 6', 'Artist 6', '1983')
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.

@@ -24,12 +24,12 @@ Update the `3-music-collection.js` file to do the following:
       }
     ```
   - This function should:
-    - Take in a `collection` parameter. (This allows the function to be reused to add an album to any array of album objects.)
-    - Take in the album's `title`, `artist`, `yearPublished` as parameters.
-    - Create a new object having the above properties.
-      - *NOTE*: Your object's properties **must** have `title`, `artist`, and `yearPublished` in order for this assignment's automated tests to work correctly!
-    - Add the new object to the end of the `collection` array.
-    - `return` the newly created object.
+    - [X]Take in a `collection` parameter. (This allows the function to be reused to add an album to any array of album objects.)
+    - [X]Take in the album's `title`, `artist`, `yearPublished` as parameters.
+    - [X]Create a new object having the above properties.
+      - [X]*NOTE*: Your object's properties **must** have `title`, `artist`, and `yearPublished` in order for this assignment's automated tests to work correctly!
+    - [X]Add the new object to the end of the `collection` array.
+    - [X]`return` the newly created object.
 
 - Use and Test the `addToCollection` function:
   - Add 6 albums to the `myCollection` array. Aim to have a mix of both same and different artists and published years. (Feel free to share your musical interests, or make stuff up. Totally fine either way.)
