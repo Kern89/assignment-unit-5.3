@@ -17,7 +17,7 @@ Update the `3-music-collection.js` file to do the following:
 
 - [X]Create an empty array named `myCollection`.
 
-- Create a function named `addToCollection`. It should have this basic structure:
+- [X]Create a function named `addToCollection`. It should have this basic structure:
   - ```js
       function addToCollection(collection, title, artist, yearPublished) {
         // your code here...
