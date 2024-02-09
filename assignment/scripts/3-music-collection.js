@@ -31,7 +31,9 @@ returnNew()
 console.log(myCollection);
 
 function showCollection(collection) {
-
+  for (i=0; i<collection.length-1; i++) {
+    console.log();
+  }
 }
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
