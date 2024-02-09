@@ -28,7 +28,11 @@ addToCollection(myCollection, 'Album 5', 'Artist 5', '1956')
 returnNew()
 addToCollection(myCollection, 'Album 6', 'Artist 6', '1983')
 returnNew()
+console.log(myCollection);
 
+function showCollection(collection) {
+
+}
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
