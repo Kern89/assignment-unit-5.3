@@ -9,25 +9,25 @@ function addToCollection(collection, what, who, when) {
     yearPublished: when,
   } )
   return collection[collection.length-1]
-}
+};
 
 //function to return newest addition to myCollection array
 function returnNew() {
   console.log(myCollection[myCollection.length-1]);
   return myCollection[myCollection.length-1]
-}
-addToCollection(myCollection, 'Rags To Rufus', 'Rufus and Chaka Khan', '1973')
-returnNew()
-addToCollection(myCollection, 'Album 2', 'Artist 2', '1977')
-returnNew()
-addToCollection(myCollection, 'Album 3', 'Artist 3', '1965')
-returnNew()
-addToCollection(myCollection, 'Album 4', 'Artist 4', '1973')
-returnNew()
-addToCollection(myCollection, 'Album 5', 'Artist 5', '1956')
-returnNew()
-addToCollection(myCollection, 'Album 6', 'Artist 6', '1983')
-returnNew()
+};
+addToCollection(myCollection, 'Rags To Rufus', 'Rufus and Chaka Khan', '1973');
+returnNew();
+addToCollection(myCollection, 'Album 2', 'Artist 2', '1977');
+returnNew();
+addToCollection(myCollection, 'Album 3', 'Artist 3', '1965');
+returnNew();
+addToCollection(myCollection, 'Album 4', 'Artist 4', '1973');
+returnNew();
+addToCollection(myCollection, 'Album 5', 'Artist 5', '1956');
+returnNew();
+addToCollection(myCollection, 'Album 6', 'Artist 6', '1983');
+returnNew();
 console.log(myCollection);
 
 
@@ -36,8 +36,15 @@ function showCollection(collection) {
   for (i=0; i<collection.length-1; i++) {
     console.log(collection[i].title,'by',collection[i].artist + ', published in',collection[i].yearPublished);
   }
+};
+showCollection(myCollection);
+
+
+function findByArtist(collection, artist) {
+  let Matches = [];
+  
 }
-showCollection(myCollection)
+
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
