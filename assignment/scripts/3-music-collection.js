@@ -33,7 +33,7 @@ console.log(myCollection);
 
 //fails test but appears to meet the requirements in readme.md, what am I missing?
 function showCollection(collection) {
-  for (i=0; i<collection.length-1; i++) {
+  for (i=0; i<collection.length; i++) {
     console.log(collection[i].title,'by',collection[i].artist + ', published in',collection[i].yearPublished);
   }
 };
@@ -42,7 +42,9 @@ showCollection(myCollection);
 
 function findByArtist(collection, artist) {
   let Matches = [];
-  
+  for (i=0; i<collection.length; i++) {
+    
+  }
 }
 
 

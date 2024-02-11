@@ -45,7 +45,7 @@ Update the `3-music-collection.js` file to do the following:
 - [X]Add a function named `findByArtist`. This function should:
   - [X]Take in a `collection` parameter. Remember, we want to be able to search any collection!
   - [X]Take in an `artist` (string) parameter.
-  - Create an empty array to hold any matching results, if any.
+  - [X]Create an empty array to hold any matching results, if any.
   - Loop through the `collection` and add any album objects with a matching artist to the array.
   - Return the array with the matching results. (If no results are found, an empty array should be returned.)
 
