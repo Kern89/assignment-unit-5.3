@@ -41,12 +41,16 @@ showCollection(myCollection);
 
 
 function findByArtist(collection, artist) {
-  let Matches = [];
+  let matches = [];
   for (i=0; i<collection.length; i++) {
-    
+    if (artist === collection[i].artist) {
+      matches.push(collection[i])
+    }
   }
+  return matches
 }
-
+findByArtist(myCollection, 'Rufus and Chaka Khan')
+//console.log(showCollection);
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
