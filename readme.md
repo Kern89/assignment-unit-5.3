@@ -36,11 +36,11 @@ Update the `3-music-collection.js` file to do the following:
   - [X]`console.log` each album as added using the function's returned value.
   - [X]After all are added, console.log the `myCollection` array.
 
-- Create a function named `showCollection`. This function should:
-  - Take in a `collection` parameter. (This allows it to be reused to show any array of album objects.)
-  - Loop through the `collection` and `console.log` each album's information formatted **within a single string**, like: `TITLE by ARTIST, published in YEARPUBLISHED`.
+- [X]Create a function named `showCollection`. This function should:
+  - [X]Take in a `collection` parameter. (This allows it to be reused to show any array of album objects.)
+  - [X]Loop through the `collection` and `console.log` each album's information formatted **within a single string**, like: `TITLE by ARTIST, published in YEARPUBLISHED`.
 
-- Test the `showCollection` function.
+- [X]Test the `showCollection` function.
 
 - Add a function named `findByArtist`. This function should:
   - Take in a `collection` parameter. Remember, we want to be able to search any collection!

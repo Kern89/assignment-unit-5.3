@@ -30,11 +30,14 @@ addToCollection(myCollection, 'Album 6', 'Artist 6', '1983')
 returnNew()
 console.log(myCollection);
 
+
+//fails test but appears to meet the requirements in readme.md, what am I missing?
 function showCollection(collection) {
   for (i=0; i<collection.length-1; i++) {
-    console.log();
+    console.log(collection[i].title,'by',collection[i].artist + ', published in',collection[i].yearPublished);
   }
 }
+showCollection(myCollection)
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
